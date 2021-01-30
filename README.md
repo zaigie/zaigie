@@ -18,4 +18,4 @@ Good projects at this stage are not ready to open source, and others are embarra
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jokerwho&layout=compact)](https://github.com/jokerwho)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jokerwho&repo=zfnew_webApi)](https://github.com/jokerwho/zfnew_webApi)
+<!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jokerwho&repo=zfnew_webApi)](https://github.com/jokerwho/zfnew_webApi)-->
