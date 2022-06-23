@@ -5,7 +5,7 @@ In fact, GitHub is more like a personal code management platform to me.
 Good projects at this stage are not ready to open source, and others are embarrassed to open source. 
  
  - 🎂 1999.12.13
- - 💻 Python | JavaScript | C++ | JAVA | Golang
+ - 💻 Python | JavaScript | C++ | Golang
  - 🏫 General undergraduate 
  - 💬 WeChat **RiotJS**
  - 📰 Blog  [ZaiGie](https://www.zaigie.com/)
