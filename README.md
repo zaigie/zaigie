@@ -13,9 +13,6 @@ Good projects at this stage are not ready to open source, and others are embarra
 
 ### About Code
 
-[![Stats](https://github-readme-stats.vercel.app/api?username=jokerwho&show_icons=true&count_private=true&hide=prs)](https://github.com/jokerwho)
-
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=jokerwho)](https://github.com/LordDashMe/github-contribution-stats/)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jokerwho&layout=compact)](https://github.com/jokerwho)
-
-<!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jokerwho&repo=zfnew_webApi)](https://github.com/jokerwho/zfnew_webApi)-->
