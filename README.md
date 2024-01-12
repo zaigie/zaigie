@@ -7,11 +7,17 @@ Good projects at this stage are not ready to open source, and others are embarra
  - 🎂 1999.12.13
  - 💻 Python | Go | C++ | JavaScript | Dart
  - 🏫 General undergraduate 
- - 💬 WeChat **RiotJS**
+ - 💬 WeChat **NexaIoT**
  - 📰 Blog  [ZaiGie](https://www.zaigie.com/)
 
 
-<p align="left">
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaigie&layout=compact">
- <img src="https://github-contribution-stats.vercel.app/api/?username=zaigie">
+<p align="center">
+ <img src="https://streak-stats.demolab.com?user=zaigie&theme=vue&hide_border=true">
 </p>
+
+<p align="center">
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaigie&layout=compact&hide=CSS,HTML">
+</p>
+<!--a href="https://github.com/zaigie/stream-infer">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zaigie&repo=stream-infer" />
+</a-->
