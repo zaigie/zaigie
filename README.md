@@ -11,7 +11,7 @@ Good projects at this stage are not ready to open source, and others are embarra
  - 📰 Blog  [ZaiGie](https://www.zaigie.com/)
 
 
-<p aligin="center">
+<p align="left">
  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaigie&layout=compact">
  <img src="https://github-contribution-stats.vercel.app/api/?username=zaigie">
 </p>
