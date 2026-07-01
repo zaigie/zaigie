@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>宅记生活 - 宅内实验室</title>
+  <meta name="description" content="宅记 / ZaiGie 的个人网站：Agentic 智能应用、私有化多模态模型服务、视频推理、通用工具链、边缘设备与工程交付能力。" />
+  <meta name="theme-color" content="#f8faf9" />
+  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="assets/avatar.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/avatar.png" />
+  <link rel="preload" href="assets/avatar.svg" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="回到首页">
+      <span class="prompt-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" role="img">
+          <path d="M7 6l9 10-9 10" />
+          <path d="M18 25h9" />
+        </svg>
+      </span>
+      <span>宅记 / ZaiGie</span>
+    </a>
+    <nav class="nav-links" aria-label="站点导航">
+      <a href="#home" class="is-active">首页</a>
+      <a href="#map">能力地图</a>
+      <a href="#lab">实验室</a>
+      <a href="#toolbox">工具箱</a>
+      <a href="#notes">笔记</a>
+      <a href="#about">关于</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-link" href="https://github.com/zaigie" target="_blank" rel="noreferrer" aria-label="打开 GitHub">
+        <svg viewBox="0 0 24 24" role="img">
+          <path
+            d="M12 2.2a10 10 0 0 0-3.16 19.48c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.35-1.18-3.35-1.18-.45-1.15-1.1-1.45-1.1-1.45-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.51 2.31 1.07 2.87.82.09-.64.35-1.07.63-1.32-2.21-.25-4.54-1.1-4.54-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.5 9.5 0 0 1 12 6.25c.85 0 1.7.11 2.5.34 1.9-1.29 2.74-1.02 2.74-1.02.56 1.37.21 2.39.11 2.64.64.7 1.02 1.6 1.02 2.68 0 3.83-2.33 4.67-4.55 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2.2Z" />
+        </svg>
+      </a>
+      <button class="icon-button" type="button" data-theme-toggle aria-label="切换明暗主题">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M12 4V2M12 22v-2M4.93 4.93 3.52 3.52M20.48 20.48l-1.41-1.41M4 12H2M22 12h-2M4.93 19.07l-1.41 1.41M20.48 3.52l-1.41 1.41" />
+          <circle cx="12" cy="12" r="4.4" />
+        </svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 14.6A8.4 8.4 0 0 1 9.4 4a7.9 7.9 0 1 0 10.6 10.6Z" />
+        </svg>
+      </button>
+      <button class="menu-button" type="button" data-menu-toggle aria-label="展开导航">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-snap" id="home">
+      <div class="hero-copy">
+        <div class="pixel-line" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1>宅记 / ZaiGie</h1>
+        <p class="hero-title">把想法接成<span>可运行</span>的工具</p>
+        <div class="signal-row" aria-label="核心领域">
+          <span class="signal-agent">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l2.2 4.6L19 9l-3.4 3.3.8 4.8L12 14.8l-4.4 2.3.8-4.8L5 9l4.8-1.4L12 3Z" />
+              <path d="M12 8v4l3 2" />
+            </svg>
+            Agentic 智能应用
+          </span>
+          <span class="signal-tools">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 8h16v10H4z" />
+              <path d="M9 8V6h6v2" />
+              <path d="M4 12h16" />
+              <path d="M12 11v3" />
+            </svg>
+            通用工具链
+          </span>
+          <i class="signal-break" aria-hidden="true"></i>
+          <span class="signal-voice">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 12h3l2-5 4 10 3-7 2 2h4" />
+            </svg>
+            私有化部署
+          </span>
+          <span class="signal-video">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h11v10H4z" />
+              <path d="m15 11 5-3v8l-5-3z" />
+            </svg>
+            视频推理
+          </span>
+          <span class="signal-edge">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 3h8v4H8zM8 17h8v4H8zM3 8h4v8H3zM17 8h4v8h-4zM8 8h8v8H8z" />
+            </svg>
+            边缘设备
+          </span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="#map">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m3 7 6-3 6 3 6-3v13l-6 3-6-3-6 3V7Z" />
+              <path d="M9 4v13M15 7v13" />
+            </svg>
+            看能力地图
+          </a>
+          <a class="button ghost" href="https://github.com/zaigie" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2.2a10 10 0 0 0-3.16 19.48c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.35-1.18-3.35-1.18-.45-1.15-1.1-1.45-1.1-1.45-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.51 2.31 1.07 2.87.82.09-.64.35-1.07.63-1.32-2.21-.25-4.54-1.1-4.54-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.5 9.5 0 0 1 12 6.25c.85 0 1.7.11 2.5.34 1.9-1.29 2.74-1.02 2.74-1.02.56 1.37.21 2.39.11 2.64.64.7 1.02 1.6 1.02 2.68 0 3.83-2.33 4.67-4.55 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2.2Z" />
+            </svg>
+            GitHub
+          </a>
+        </div>
+        <div class="mini-terminal">
+          <span class="terminal-prompt">&gt;_</span>
+          <code>zaigie@home-lab ~</code>
+          <p>“持续连接 · 小步快跑 · 让工具发光”</p>
+        </div>
+      </div>
+
+      <div class="hero-orbit" aria-label="宅记头像与能力状态">
+        <div class="crosshair" aria-hidden="true"></div>
+        <div class="orbit-ring ring-one" aria-hidden="true"></div>
+        <div class="orbit-ring ring-two" aria-hidden="true"></div>
+        <div class="orbit-ring ring-three" aria-hidden="true"></div>
+        <div class="avatar-shell">
+          <img src="assets/avatar.svg" alt="宅记 / ZaiGie 头像" />
+        </div>
+        <div class="orbit-node node-agent">
+          <span class="node-icon green">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l2.2 4.6L19 9l-3.4 3.3.8 4.8L12 14.8l-4.4 2.3.8-4.8L5 9l4.8-1.4L12 3Z" />
+              <path d="M9 19h6M12 8v4l3 2" />
+            </svg>
+          </span>
+          <strong>Agentic 应用</strong>
+          <em>planning</em>
+        </div>
+        <div class="orbit-node node-voice">
+          <span class="node-icon teal">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 12h3l2-5 4 10 3-7 2 2h4" />
+            </svg>
+          </span>
+          <strong>私有化部署</strong>
+          <em>offline</em>
+        </div>
+        <div class="orbit-node node-video">
+          <span class="node-icon coral">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h11v10H4z" />
+              <path d="m15 11 5-3v8l-5-3z" />
+            </svg>
+          </span>
+          <strong>推理引擎</strong>
+          <em>running</em>
+        </div>
+        <div class="orbit-node node-tools">
+          <span class="node-icon amber">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 8h16v10H4z" />
+              <path d="M9 8V6h6v2" />
+              <path d="M4 12h16" />
+            </svg>
+          </span>
+          <strong>通用工具</strong>
+          <em>ready</em>
+        </div>
+        <div class="orbit-node node-edge">
+          <span class="node-icon blue">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 3h8v4H8zM8 17h8v4H8zM3 8h4v8H3zM17 8h4v8h-4zM8 8h8v8H8z" />
+            </svg>
+          </span>
+          <strong>边缘设备</strong>
+          <em>syncing</em>
+        </div>
+        <div class="system-log">
+          <code>&gt;_ system.log</code>
+          <span>10:24:09&nbsp;&nbsp;service.agent&nbsp;[ plan ]</span>
+          <span>10:24:10&nbsp;&nbsp;service.voice&nbsp;&nbsp;[ ok ]</span>
+          <span>10:24:10&nbsp;&nbsp;service.vision&nbsp;[ ok ]</span>
+          <span>10:24:11&nbsp;&nbsp;service.tools&nbsp;&nbsp;[ ok ]</span>
+          <span>10:24:11&nbsp;&nbsp;edge.node&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ sync ]</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ability-section section-snap" id="map">
+      <div class="section-heading">
+        <p><strong>02</strong><span>ABILITIES MAP</span></p>
+        <h2>能力地图</h2>
+        <span>从公开项目里提炼出的长期问题域</span>
+      </div>
+
+      <div class="ability-map">
+        <svg class="connector-map" viewBox="0 0 1200 620" aria-hidden="true" preserveAspectRatio="none">
+          <path class="line green" d="M615 285 C690 150 770 95 900 80" />
+          <path class="line teal" d="M600 290 C500 190 470 90 420 80" />
+          <path class="line teal" d="M600 305 C490 265 390 260 310 300" />
+          <path class="line teal" d="M590 340 C480 395 350 398 250 470" />
+          <path class="line coral" d="M585 300 C450 250 230 230 110 260" />
+          <path class="line amber" d="M620 300 C760 230 910 225 1080 260" />
+          <path class="line blue" d="M625 340 C770 410 900 415 1080 470" />
+          <path class="line gray" d="M610 365 C670 445 675 505 620 560" />
+        </svg>
+        <div class="core-orb">
+          <span class="cube-icon">
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <path d="m24 4 17 10v20L24 44 7 34V14L24 4Z" />
+              <path d="M24 24 7 14M24 24l17-10M24 24v20" />
+            </svg>
+          </span>
+          <strong>应用工程化<br />与信息化落地能力</strong>
+          <em>Agentic + FullStack</em>
+        </div>
+
+        <article class="map-card agent">
+          <h3>Agentic 应用编排</h3>
+          <ul>
+            <li>任务规划 / 工具选择 / 多步执行</li>
+            <li>MCP / 插件协议 / 外部系统接入</li>
+            <li>RAG / 记忆 / 上下文工程</li>
+            <li>评测反馈 / 人工确认 / 可回放轨迹</li>
+          </ul>
+          <div class="tags"><span>Agent</span><span>Tools</span><span>MCP</span></div>
+        </article>
+        <article class="map-card voice">
+          <h3>语音 ASR/TTS</h3>
+          <ul>
+            <li>语音识别 ASR（流式 / 批量）</li>
+            <li>语音合成 TTS（多音色 / 可控）</li>
+            <li>说话人分离 / VAD / 标点恢复</li>
+            <li>多语言支持 / 自定义词表</li>
+          </ul>
+        </article>
+        <article class="map-card ocr">
+          <h3>OCR/VLM 文档解析</h3>
+          <ul>
+            <li>通用 OCR（印刷体 / 手写体）</li>
+            <li>版面分析 / 表格识别 / 公式识别</li>
+            <li>多模态理解 VLM（图文问答 / 摘要）</li>
+            <li>结构化输出（JSON / Markdown）</li>
+          </ul>
+        </article>
+        <article class="map-card api">
+          <h3>统一 API 与任务引擎</h3>
+          <ul>
+            <li>Agent / Model / Tool 统一网关</li>
+            <li>异步任务队列 / 结果回调 / 重试机制</li>
+            <li>模型路由 / 负载均衡 / 限流熔断</li>
+            <li>权限边界 / 用量统计 / 审计日志</li>
+          </ul>
+        </article>
+        <article class="map-card vision">
+          <h3>实时视频推理</h3>
+          <ul>
+            <li>实时检测 / 跟踪 / 分析管线</li>
+            <li>低延迟 / 高吞吐 / 可观测</li>
+            <li>可视化与告警联动</li>
+            <li>边缘摄像头 / RTSP / ONVIF</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>C/C++</span><span>ONNX</span></div>
+        </article>
+        <article class="map-card ops">
+          <h3>通用工具与运维</h3>
+          <ul>
+            <li>CLI / API / Webhook 工具服务</li>
+            <li>部署编排 / 配置管理 / 日志中心</li>
+            <li>监控告警 / 指标看板 / 审计追踪</li>
+            <li>备份恢复 / 自动化运维脚本</li>
+          </ul>
+          <div class="tags"><span>Go</span><span>Python</span><span>TypeScript</span><span>CLI</span></div>
+        </article>
+        <article class="map-card edge">
+          <h3>边缘设备与 IoT</h3>
+          <ul>
+            <li>嵌入式与边缘计算落地</li>
+            <li>设备通信 / 协议适配 / OTA 升级</li>
+            <li>本地推理 / 离线运行 / 数据缓存</li>
+            <li>低功耗优化 / 稳定性治理</li>
+          </ul>
+          <div class="tags"><span>C/C++</span><span>MQTT</span><span>ESP32 / Pi</span></div>
+        </article>
+        <article class="map-card deploy">
+          <h3>部署与后端适配</h3>
+          <ul>
+            <li>Docker / Docker Compose</li>
+            <li>一键启动 / 离线部署 / 资源隔离</li>
+            <li>模型热更新 / 版本适配 / 健康检查</li>
+            <li>存储适配（本地 / NAS / S3 兼容）</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="stack-rail">
+        <div>
+          <strong>核心技术栈</strong>
+          <span>/ Tech Stack</span>
+        </div>
+        <ul>
+          <li><b>Python</b><span>服务 / 脚本 / 数据处理</span></li>
+          <li><b>Go</b><span>高并发 / 工具链</span></li>
+          <li><b>TypeScript</b><span>面板 / 可视化 / 自动化</span></li>
+          <li><b>FastAPI</b><span>高性能 API 框架</span></li>
+          <li><b>Agentic</b><span>工具编排 / RAG / MCP</span></li>
+          <li><b>Docker</b><span>容器化 / 一致性部署</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="lab-section section-snap" id="lab">
+      <div class="section-column">
+        <div class="section-heading compact">
+          <h2>工作方式</h2>
+          <span class="hand-note">先让它跑起来，再让它可靠</span>
+        </div>
+        <div class="principle-list">
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 5h16v14H4z" />
+              <path d="M8 9l3 3-3 3M13 15h4" />
+            </svg>
+            <div><strong>原型先行，快速验证</strong><span>用最小闭环验证想法，能用再优雅。</span></div>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 10V8a6 6 0 0 1 12 0v2" />
+              <path d="M5 10h14v10H5z" />
+            </svg>
+            <div><strong>本地优先，隐私优先</strong><span>数据默认留在本地，掌控权在自己手中。</span></div>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M2 12s4-6 10-6 10 6 10 6-4 6-10 6S2 12 2 12Z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+            <div><strong>可观测，才可靠</strong><span>日志 / 指标 / 链路，问题有据可查。</span></div>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+            </svg>
+            <div><strong>自动化，减少重复</strong><span>能脚本化的脚本化，能 CI 的就别手动。</span></div>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 4h14v16H5z" />
+              <path d="M8 8h8M8 12h8M8 16h5" />
+            </svg>
+            <div><strong>写清楚，才好协作</strong><span>文档与图示先行，代码只是实现。</span></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="process-board">
+        <div class="binder-holes" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p>从想法到可运行系统的迭代路径</p>
+        <div class="process-steps">
+          <span><i class="bulb"></i><b>想法</b><em>Idea</em></span>
+          <span><i class="window"></i><b>原型</b><em>Prototype</em></span>
+          <span><i class="wrench"></i><b>服务化</b><em>Service</em></span>
+          <span><i class="chart"></i><b>部署与观测</b><em>Operate</em></span>
+          <span><i class="box"></i><b>沉淀为资产</b><em>Reusable</em></span>
+        </div>
+        <div class="make-card">
+          <code># 让原型成为可运行的系统</code>
+          <span><b>$ make dev</b><em># 本地优先，快速启动</em></span>
+          <span><b>$ make api</b><em># 后端接口与任务入口</em></span>
+          <span><b>$ make infer</b><em># 模型 / CV 管线验证</em></span>
+          <span><b>$ make edge</b><em># 边缘节点与离线运行</em></span>
+          <span><b>$ make release</b><em># 镜像、文档与观测配置</em></span>
+        </div>
+      </div>
+
+      <aside class="protocol-panel">
+        <h3>系统落地 / Engineering Loop</h3>
+        <code>$ system run --with-models</code>
+        <div class="protocol-track" aria-label="系统工程工作循环">
+          <span><b>Scope</b><em>场景边界</em></span>
+          <span><b>API</b><em>服务契约</em></span>
+          <span><b>Pipeline</b><em>模型与数据流</em></span>
+          <span><b>Operate</b><em>部署与观测</em></span>
+        </div>
+        <div class="protocol-list">
+          <p><strong>后端先定边界</strong><span>入口、权限、任务队列、回调与状态存储要先形成稳定契约。</span></p>
+          <p><strong>模型管线可替换</strong><span>ASR、OCR、VLM、视频推理都按服务接口接入，方便评测和升级。</span></p>
+          <p><strong>边缘与部署并行考虑</strong><span>资源限制、离线运行、日志采集和健康检查从原型阶段就纳入设计。</span></p>
+        </div>
+        <div class="handoff-note">
+          <span>Agentic 是编排层，后端、CV 管线、边缘运行和可观测才是系统能长期跑住的底座。</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="deliver-section section-snap" id="toolbox">
+      <div class="section-heading compact">
+        <h2>可交付能力</h2>
+        <span class="hand-note coral-text">Agentic、后端、CV 与边缘一起落地</span>
+      </div>
+      <div class="deliver-grid">
+        <div class="deliver-list">
+          <article class="is-featured"><strong>Agentic 智能应用</strong><span>任务规划、工具编排、MCP/插件接入、人工确认与执行轨迹。</span></article>
+          <article><strong>后端服务与任务引擎</strong><span>REST / WebSocket / gRPC、异步队列、回调、权限与状态管理。</span></article>
+          <article><strong>CV / 多模态推理管线</strong><span>实时视频推理、OCR/VLM 文档解析、结构化输出与评测样例。</span></article>
+          <article><strong>边缘设备与离线运行</strong><span>RTSP / ONVIF、设备协议适配、资源约束、缓存与健康检查。</span></article>
+          <article><strong>模型服务与 RAG 应用</strong><span>私有化部署、向量检索、记忆管理、知识库问答与摘要。</span></article>
+          <article><strong>可观测与 DevOps</strong><span>Docker Compose、CI/CD、指标 / 日志 / 链路、告警与回放。</span></article>
+        </div>
+        <div class="architecture-card" aria-label="典型交付形态">
+          <h3>多能力系统交付形态</h3>
+          <div class="arch-flow">
+            <div class="clients"><span>Web</span><span>API</span><span>CLI</span></div>
+            <i></i>
+            <div class="gateway">API Gateway</div>
+            <i></i>
+            <div class="services">
+              <span>Auth<br /><em>认证</em></span>
+              <span>API<br /><em>后端服务</em></span>
+              <span>Vision<br /><em>CV 管线</em></span>
+              <span>Agent<br /><em>编排引擎</em></span>
+              <span>Queue<br /><em>任务队列</em></span>
+              <span>Model<br /><em>推理服务</em></span>
+              <span>Storage<br /><em>状态存储</em></span>
+            </div>
+            <i></i>
+            <div class="ai-box"><span>Agent / RAG</span><span>CV / OCR</span><span>Edge Runtime</span><span>Human
+                Review</span></div>
+          </div>
+          <div class="infra-row">
+            <span>PostgreSQL</span><span>Redis</span><span>Qdrant</span><span>MinIO</span><span>Prometheus</span>
+          </div>
+        </div>
+        <div class="deliver-checklist">
+          <h3>交付包 / Delivery Kit</h3>
+          <label><input type="checkbox" checked /><span>应用入口与服务接口（Web/CLI/Webhook）</span></label>
+          <label><input type="checkbox" checked /><span>任务引擎与数据契约（队列 / 回调 / 状态 / 权限）</span></label>
+          <label><input type="checkbox" checked /><span>CV / OCR / VLM 推理样例与评测数据</span></label>
+          <label><input type="checkbox" checked /><span>Agentic 编排配置（工具协议 / RAG / 人工确认）</span></label>
+          <label><input type="checkbox" checked /><span>边缘运行与部署脚本（Docker / Compose / 设备节点）</span></label>
+          <label><input type="checkbox" checked /><span>观测运维材料（日志 / 指标 / 告警 / 回放）</span></label>
+          <div class="compose-log">
+            <code>$ system healthcheck</code>
+            <span>✓ api-gateway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ready</span>
+            <span>✓ inference-worker Ready</span>
+            <span>✓ edge-node&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Synced</span>
+            <span>✓ observability&nbsp;&nbsp;Ready</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notes-section section-snap" id="notes">
+      <div class="section-heading compact">
+        <p><strong>05</strong><span>NOTES</span></p>
+        <h2>工程笔记</h2>
+        <span>把复杂问题整理清楚，也是一种产品能力。</span>
+      </div>
+      <div class="note-grid">
+        <article>
+          <span>Private AI</span>
+          <h3>模型服务不是“接一个模型”，而是把模型变成可路由、可组合、可运维的服务引擎。</h3>
+          <p>统一网关、异步任务、模型热更新、离线部署和可观测，是私有化 AI 从演示走向可用的关键。</p>
+        </article>
+        <article>
+          <span>Realtime Vision</span>
+          <h3>实时视频推理的难点通常不在模型，而在管线吞吐、延迟预算和异常恢复。</h3>
+          <p>输入源、队列、推理、结构化输出和告警联动要作为一个系统一起设计。</p>
+        </article>
+        <article>
+          <span>Local First</span>
+          <h3>能在本地稳定跑起来的工具，才更容易被信任、复现和扩展。</h3>
+          <p>默认本地、可 Docker 化、日志完整、文档清楚，是我偏爱的工具落地方式。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section section-snap" id="about">
+      <div class="about-card">
+        <img src="assets/avatar.svg" alt="宅记 / ZaiGie 头像" />
+        <div>
+          <h2>你好，我是 宅记 / ZaiGie</h2>
+          <p>喜欢把想法变成工具，也享受把复杂问题理清楚的过程。一起做些有用又有趣的事吧！</p>
+        </div>
+        <a href="https://github.com/zaigie" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 2.2a10 10 0 0 0-3.16 19.48c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.35-1.18-3.35-1.18-.45-1.15-1.1-1.45-1.1-1.45-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.51 2.31 1.07 2.87.82.09-.64.35-1.07.63-1.32-2.21-.25-4.54-1.1-4.54-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.5 9.5 0 0 1 12 6.25c.85 0 1.7.11 2.5.34 1.9-1.29 2.74-1.02 2.74-1.02.56 1.37.21 2.39.11 2.64.64.7 1.02 1.6 1.02 2.68 0 3.83-2.33 4.67-4.55 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2.2Z" />
+          </svg>
+          <span>GitHub<br /><em>@zaigie</em></span>
+        </a>
+        <a href="mailto:jokerrwho@yeah.net">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 5h16v14H4z" />
+            <path d="m4 7 8 6 8-6" />
+          </svg>
+          <span>Email<br /><em>jokerrwho@yeah.net</em></span>
+        </a>
+        <div class="motto-box">
+          <code>$ whoami</code>
+          <span>Zaigie</span>
+          <code>$ motto</code>
+          <strong>“代码是手段，解决问题才是目的。开放让我们走得更远。”</strong>
+        </div>
+      </div>
+      <div class="site-record" aria-label="站点备案信息">
+        <span>© 2026 宅记 / ZaiGie</span>
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3 5 6v5c0 4.4 2.9 8.5 7 10 4.1-1.5 7-5.6 7-10V6l-7-3Z" />
+            <path d="m9 12 2 2 4-5" />
+          </svg>
+          蜀ICP备18030837号-1
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-top" type="button" data-back-top aria-label="回到顶部">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="m6 15 6-6 6 6" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
